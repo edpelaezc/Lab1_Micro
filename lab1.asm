@@ -29,7 +29,7 @@ MOV AH, 09h ; decimos que se imprimira una cadena
 INT 21h ; ejecuta la interrupciòn, imprimira
 
 MOV AH, 02H
-MOV DX, 27
+MOV DX, 32
 INT 21h
 
 ; finalizar el programa
